@@ -1,11 +1,11 @@
 
 # Подсчитать сумму цифр в вещественном числе.
-
-
-
+#map
 number = float(input("Введите вещественное число: "))
 
 lst = list(str(number).split('.'))
+
+
 summ = 0
 for i in lst:
     for j in i:
